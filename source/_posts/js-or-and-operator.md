@@ -1,7 +1,7 @@
 title: JS巧妙运用||和&&运算符优化条件选择代码
 date: 2015-08-08 10:48:09
 tags: [js,代码优化,运算符,条件选择]
-categories: [js,代码优化]
+categories: [javascript,代码优化]
 keywords: javascripts,js,逻辑运算符,代码优化,条件选择
 ---
 

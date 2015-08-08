@@ -1,7 +1,7 @@
 title: IE rgba兼容问题
 date: 2015-08-08 12:06:17
 tags: [css,ie,兼容性,rgba,透明度]
-categories: [css,兼容性]
+categories: [css/css3,兼容性]
 keywords: css,ie,兼容性,rgba,透明度
 ---
 

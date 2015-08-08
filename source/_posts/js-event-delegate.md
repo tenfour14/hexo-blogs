@@ -1,7 +1,7 @@
 title: js事件委托
 date: 2015-08-08 11:28:36
 tags: [js,代码优化,事件委托]
-categories: [js,代码优化]
+categories: [javascript,代码优化]
 keywords: javascript,js,代码优化,事件委托
 ---
 
