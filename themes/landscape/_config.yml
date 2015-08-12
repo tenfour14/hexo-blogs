@@ -1,7 +1,10 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  主页: /
+  归档: /archives/
+  javascript: /categories/javascript/
+  html/html5: /categories/html-html5/
+  css/css3: /categories/css-css3/
 rss: /atom.xml
 
 # Content
