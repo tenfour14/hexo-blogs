@@ -2,7 +2,7 @@ title: JS位运算的巧妙运用
 date: 2015-08-10 19:11:56
 tags: [js,位运算,代码优化]
 categories: [javascript,代码优化]
-keywords: [js,javascript,代码优化,位运算]
+keywords: js,javascript,代码优化,位运算
 ---
 位运算,对于底层的`C`,`C++`开发人员来说并不陌生,但是对于`js`这门弱语言来说,位运算总感觉是那么高深.那么我们为什么还要用位运算呢?
 
@@ -24,8 +24,8 @@ if ( a & 1 ) {
   alert ( 'a是偶数!' )
 }
 ```
-
-### 2. 两个整数的互换------按位异或(^)
+<a name="change-number" id="change-number"></a>
+### 2. 两个整数的互换------按位异或(^) 
 
 加减互为逆运算,异或和异或互为逆运算.
 
