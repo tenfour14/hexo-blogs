@@ -20,6 +20,7 @@ widgets:
 - archive
 - tagcloud
 - recent_posts
+- links
 
 # Miscellaneous
 google_analytics:
@@ -28,3 +29,7 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# links
+links:
+  丫丫加油: http://www.yaya12.com
