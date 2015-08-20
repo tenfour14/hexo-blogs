@@ -2,7 +2,19 @@
   <% if (theme.sidebar === 'bottom'){ %>
     <%- partial('_partial/sidebar') %>
   <% } %>
-  <div class="outer"></div>
+  <div class="outer">
+  	<div class="power_text">
+  		<span>Powered By :</span>
+  	</div>
+  	<ul class="power_list">
+  	  <% for(var i in theme.powerby) { %>
+		<li>
+  	  	  <img src="<%= theme.powerby[i].imgurl%>" width="40" height="40" /></br>
+  	  	  <a href="<%= theme.powerby[i].src%>" target="_blank"><%= theme.powerby[i].name%></a>
+  	  	</li>
+  	  <% } %>
+  	</ul>
+  </div>
 </footer>
 <script type="text/javascript">
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
