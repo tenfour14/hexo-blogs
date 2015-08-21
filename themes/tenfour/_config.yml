@@ -18,7 +18,7 @@ fancybox: true
 # Sidebar 侧边栏
 sidebar: right
 widgets:
-# - tenfour
+- tenfour
 - category
 # - tag
 - tagcloud
@@ -52,3 +52,7 @@ powerby:
     name: GitHub
     src: https://github.com/
     imgurl: http://7xj45h.com1.z0.glb.clouddn.com/bloggithub.png
+  swiftype:
+    name: Swiftype
+    src: https://swiftype.com/
+    imgurl: http://7xj45h.com1.z0.glb.clouddn.com/blogswitype.png

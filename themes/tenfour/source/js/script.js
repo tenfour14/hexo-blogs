@@ -17,7 +17,7 @@
 
   $('#nav-search-btn').on('click', function(){
     if (isSearchAnim) return;
-
+    $(this).hide();
     startSearchAnim();
     $searchWrap.addClass('on');
     stopSearchAnim(function(){
@@ -29,6 +29,7 @@
     startSearchAnim();
     $searchWrap.removeClass('on');
     stopSearchAnim();
+    $('#nav-search-btn').show();
   });
 
   // Share
