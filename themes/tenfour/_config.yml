@@ -19,10 +19,11 @@ fancybox: true
 sidebar: right
 widgets:
 - tenfour
+# - calendar
 - category
 # - tag
 - tagcloud
-- archive
+# - archive
 # - recent_posts
 - links
 

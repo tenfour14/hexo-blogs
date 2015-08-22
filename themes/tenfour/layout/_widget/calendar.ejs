@@ -1,0 +1,45 @@
+<div class="widget-wrap">
+	<h3 class="widget-title">日历归档:</h3>
+	<div class="widget">
+		<div class="w_calendar" id="calcendar_box">
+			<div class="calendar_top">
+				<span class="up_year">&lt;&lt;</span>
+				<span class="up_month">&lt;</span>
+				<h4 class="calendar_date"><i></i>  <b>Now</b></h4>
+				<span class="down_month">&gt;</span>
+				<span class="down_year">&gt;&gt;</span>
+			</div>
+			<table id="calendar_table">
+				<thead>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+				</thead>
+				<tbody>
+					<%for(var i =0;i<6;i++){%>
+						<tr>
+							<%for(var j=0;j<7;j++){%>
+								<td></td>
+							<%}%>
+						</tr>
+					<%}%>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<%
+		var calendarObj = '';
+		page.posts.each(function(p){
+		  calendarObj += date_xml(p.date).substr(0,10)+',';
+		});
+	%>
+	<div id="calendar_text" style="display: none;"><%=calendarObj%></div>
+</div>
+

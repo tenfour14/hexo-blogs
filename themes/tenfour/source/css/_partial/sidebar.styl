@@ -42,3 +42,39 @@ else
     display: inline-block
     width: 70px
     text-align: right
+
+.w_calendar
+  .calendar_top
+    position: relative
+    height: 30px
+    line-height: 30px
+    text-align: center
+    background: #EEEEEE
+    padding: 0 50px
+    font-size: 12px
+    span
+      position: absolute
+      top: 5px
+      line-height: 20px
+      display: inline-block
+      height: 20px
+      width: 20px
+      &:hover
+        cursor: pointer
+    .up_year
+      left: 10px
+    .up_month
+      left: 30px
+    .down_month
+      right: 30px
+    .down_year
+      right: 10px 
+  table
+    background: #FFFFFF
+    width: 100%
+    border-collapse: collapse
+    td,th
+      text-align: center
+      width: 14.2857%
+      height: 30px
+      border: 1px solid #EEEEEE      
